@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Brittany Alana Woods",
+    "ratings": "★★★★",
+    "ratingsCount": 3725,
+    "img": "./images/image-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Scarlett Jordan",
+    "ratings": "★★★★★",
+    "ratingsCount": 4355,
+    "img": "./images/image-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Carol Ramírez",
+    "ratings": "★★★★",
+    "ratingsCount": 3972,
+    "img": "./images/image-3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Francious A Pages",
+    "ratings": "★★★★★",
+    "ratingsCount": 1764,
+    "img": "./images/image-4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Laraina Stevens",
+    "ratings": "★★★★",
+    "ratingsCount": 799,
+    "img": "./images/image-5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Jhon Smith",
+    "ratings": "★★★",
+    "ratingsCount": 4372,
+    "img": "./images/image-6.jpg"
+  }
+]
