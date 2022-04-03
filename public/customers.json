@@ -2,43 +2,49 @@
   {
     "id": 1,
     "name": "Brittany Alana Woods",
+    "title": "Banker",
     "ratings": "★★★★",
-    "ratingsCount": 3725,
+    "reviewComments": "The product has many great options",
     "img": "./images/image-1.jpg"
   },
   {
     "id": 2,
     "name": "Scarlett Jordan",
+    "title": "Blogger",
     "ratings": "★★★★★",
-    "ratingsCount": 4355,
+    "reviewComments": "Product very easy to use with a ton of features",
     "img": "./images/image-2.jpg"
   },
   {
     "id": 3,
     "name": "Carol Ramírez",
+    "title": "Web developer",
     "ratings": "★★★★",
-    "ratingsCount": 3972,
+    "reviewComments": "Easy to use and perfect results Light weight and heat are also suitable.",
     "img": "./images/image-3.jpg"
   },
   {
     "id": 4,
     "name": "Francious A Pages",
+    "title": "Consultant",
     "ratings": "★★★★★",
-    "ratingsCount": 1764,
+    "reviewComments": "Really I didn't believe what this product did.. It is so easy , so powerful,give u alot of options, have u a wonderful result",
     "img": "./images/image-4.jpg"
   },
   {
     "id": 5,
     "name": "Laraina Stevens",
+    "title": "Dentist",
     "ratings": "★★★★",
-    "ratingsCount": 799,
+    "reviewComments": "It’s great product to use to your everyday hair style, you can totally depend on it with no need for any other product.",
     "img": "./images/image-5.jpg"
   },
   {
     "id": 6,
     "name": "Jhon Smith",
+    "title": "Cashier",
     "ratings": "★★★",
-    "ratingsCount": 4372,
+    "reviewComments": "This hair dryer is really must have item it makes you blow dry your hair like professional in no time in a very easy way I love it and for sure recommend it.",
     "img": "./images/image-6.jpg"
   }
 ]

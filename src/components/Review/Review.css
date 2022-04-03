@@ -1,0 +1,26 @@
+.review {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 20px;
+    background: #ffb6c136;
+
+}
+.review-info{
+    display: flex;
+}
+.review-info img{
+    width: 90px;
+    height: 90px;
+   border-radius: 50%;
+   margin-right: 10px;
+}
+.customer-info {
+    line-height: 8px;
+}
+
+.review span{
+    color: orange;
+    font-size: 25px;
+    line-height: 45px;
+
+}
