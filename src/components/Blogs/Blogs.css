@@ -7,13 +7,25 @@
     justify-content: space-between;
     margin: 0px 100px;
     margin-bottom: 50px;
-    background-color: rgb(241 238 238 / 80%);
+    background-color: #ffb6c136;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px #aaaaaa82;
+    border: 1px solid lightgray;
 }
 .question img{
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 260px;
     border-radius: 10px;
+    margin-left: 35px;
+}
+@media screen and (max-width:570px){
+    .question{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        overflow: hidden;
+        
+        
+    }  
+
 }

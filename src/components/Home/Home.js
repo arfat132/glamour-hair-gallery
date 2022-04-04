@@ -1,18 +1,14 @@
-import React, { useEffect, useState } from 'react';
 import Image from './image/home-image.jpg';
 import './Home.css'
 import Review from '../Review/Review';
 import { useNavigate } from 'react-router-dom';
+import useReviews from '../Hooks/useReviews';
 
 const Home = () => {
 
-    const [reviews, setReviews] = useState([]);
+    const [reviews] = useReviews([]);
     const navigate = useNavigate();
-    useEffect(() => {
-        fetch('customers.json')
-        .then(res => res.json())
-        .then(data => setReviews(data))
-    },[])
+    
     return (
         <div>
              <div className='home'>

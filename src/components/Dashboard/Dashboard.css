@@ -1,0 +1,18 @@
+.charts{
+    display: flex;
+    margin: 50px;
+    justify-content: space-around;
+}   
+.charts h1{
+    color: #ca0d73;
+    text-align: center;
+}
+
+@media screen and (max-width:570px){
+    .charts{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }  
+}
