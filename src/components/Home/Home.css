@@ -43,12 +43,12 @@
 }
 @media screen and (max-width:570px) {
     .home{
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-column-gap: 140px;
-         padding-left: 100px;
         padding-top: 20px;
         align-items: center;
+        margin-left: -70PX;
     }
     .cutomers-details{
         display: grid;
@@ -62,13 +62,14 @@
         
     }
     .home-image img{
-        width: 500px;
+        width: 300px;
      }
      .home-info h1 {
-         font-size: 40px;
+         font-size: 20px;
+        
      }
      
      .home-info p {
-         font-size: 19px;
+         font-size: 16px;
      }
 }
