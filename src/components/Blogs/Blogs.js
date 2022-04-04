@@ -10,7 +10,7 @@ const Blogs = () => {
             <h1>Questions/Answers</h1>
             <div className='question'>
                 <div >
-                <h2>What is context API?</h2>
+                <h2>What is the purpose of context API?</h2>
                 <p><strong>Answers:</strong> Context API is a component structure provided by the React framework, which enables us to share specific forms of data across all types of applications. Context API is aimed at solving the problem of prop drilling. Context API is convenient for sharing data that can be considered global, such as the currently authenticated user, the theme settings for the application, and so on. In conditions where we have these types of data, we can use the Context API and we don’t certainly have to use extra modules. Even though, any situation where we have to pass a prop through a component so it reaches another component somewhere down the tree is where we can use the Context API. </p>
                 </div>
                 <img src={Image1} alt="" />
