@@ -1,6 +1,6 @@
 # Glamour Hair Gallery
 
-### Live site link: [Create React App](https://github.com/facebook/create-react-app).
+### Live site link: [Glamour Hair Gallery](https://clever-tiramisu-cb49a8.netlify.app/).
 
 ## Projects Informations
  
