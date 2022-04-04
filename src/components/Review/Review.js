@@ -7,15 +7,13 @@ const Review = ({ review }) => {
         <div className='review'>
             <div className='review-info'>
             <img src={img} alt="" />
-                <div className='customer-info'>
-                    <h3>{name}</h3>
-                    <h5>{title}</h5>
-                </div>
-                
+            <div className='customer-info'>
+                <h3>{name}</h3>
+                <h5>{title}</h5>
+            </div>
             </div>
             <span>{ratings}</span>
-            <p>{reviewComments}</p>
-            
+            <p>{reviewComments}</p> 
         </div>
     );
 };

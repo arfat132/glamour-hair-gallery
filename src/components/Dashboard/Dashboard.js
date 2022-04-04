@@ -10,13 +10,13 @@ const Dashboard = () => {
         <div className='charts'>
         <div>
           <h1>Investment vs Revenue</h1>
-        <AreaCharts></AreaCharts>
+          <AreaCharts></AreaCharts>
         </div>
         <div>
-        <h1>Investment vs Revenue</h1>
-        <BarCharts></BarCharts>
+          <h1>Investment vs Revenue</h1>
+          <BarCharts></BarCharts>
         </div>
-                </div>
+        </div>
     );
 };
 

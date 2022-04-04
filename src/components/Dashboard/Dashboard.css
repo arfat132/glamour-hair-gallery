@@ -8,6 +8,7 @@
     text-align: center;
 }
 
+/* Media Query Start */
 @media screen and (max-width:570px){
     .charts{
         display: flex;

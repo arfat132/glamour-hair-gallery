@@ -22,7 +22,7 @@ const Blogs = () => {
                 </div>
                 <img src={Image2} alt="" />
             </div>
-                    </div>
+            </div>
     );
 };
 

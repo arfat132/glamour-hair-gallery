@@ -21,14 +21,16 @@
     border-radius: 10px;
     margin-left: 35px;
 }
+
+/* Media Query start */
+
 @media screen and (max-width:570px){
     .question{
         display: flex;
         flex-direction: column;
         margin: 10px;
         overflow: hidden;
-        
-        
+    
     }  
 
 }

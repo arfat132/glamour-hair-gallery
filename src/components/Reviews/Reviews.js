@@ -2,7 +2,9 @@ import useReviews from '../Hooks/useReviews';
 import Review from '../Review/Review';
 
 const Reviews = () => {
+
     const [reviews] = useReviews([]);
+
     return (
         <div className='cutomers-reviews'>
                 <h1>Cutomers Reviews({reviews.length})</h1>
@@ -12,8 +14,7 @@ const Reviews = () => {
                     review={review}
                 ></Review>)}
                 </div>
-
-            </div>
+        </div>
     );
 };
 

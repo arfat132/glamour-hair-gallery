@@ -6,8 +6,6 @@ nav.navbar {
     background: #ca0d73;
     color: white;
 }
-
-
 a {
     text-decoration: none;
     padding: 15px;
@@ -24,6 +22,8 @@ a {
     font-weight: 600;
     text-transform: uppercase;
 }
+
+/* Media Query start */
 @media screen and (max-width:570px){
     nav.navbar {
         display: flex;
@@ -36,7 +36,6 @@ a {
         margin-right: -27px;
     }
     a {
-       
         font-size: 15px;
         flex-direction: column;
         padding: 0px 15px;
@@ -45,7 +44,6 @@ a {
         
     }
     .active-a {
-        
         font-size: 15px;
         flex-direction: column;
         padding: 0px 15px;
