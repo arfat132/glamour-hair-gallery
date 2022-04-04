@@ -1,0 +1,19 @@
+.questions h1{
+    text-align: center;
+}
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+    margin-bottom: 50px;
+    background-color: rgb(241 238 238 / 80%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa82;
+}
+.question img{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}

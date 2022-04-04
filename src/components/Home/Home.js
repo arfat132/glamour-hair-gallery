@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react';
 import Image from './image/home-image.jpg';
 import './Home.css'
 import Review from '../Review/Review';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
-    const [reviews, setReviews] = useState([]);
 
+    const [reviews, setReviews] = useState([]);
+    const navigate = useNavigate();
     useEffect(() => {
         fetch('customers.json')
         .then(res => res.json())
@@ -33,7 +35,7 @@ const Home = () => {
                 ></Review>)}
                 </div>
                 
-                <button className='btn'>See All Reviews</button>
+                <button className='btn' onClick={()=>navigate('/reviews')}>See All Reviews</button>
                 
                
             </div>

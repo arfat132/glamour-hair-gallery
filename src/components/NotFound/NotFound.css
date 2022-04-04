@@ -1,0 +1,16 @@
+.not-found {
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+span.emoji {
+    font-size: 120px;
+    color: grey;
+}
+
+span.error {
+    font-size: 35px;
+    font-weight: 600;
+    color: grey;
+}
