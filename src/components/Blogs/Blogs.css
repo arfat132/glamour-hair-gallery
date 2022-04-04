@@ -12,6 +12,9 @@
     border-radius: 10px;
     border: 1px solid lightgray;
 }
+.question p{
+    text-align: justify;
+}
 .question img{
     width: 350px;
     height: 260px;

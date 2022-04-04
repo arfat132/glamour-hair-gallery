@@ -8,10 +8,11 @@ const Header = () => {
             <nav className='navbar'>
                 <h1>Glamour Hair Gallery</h1>
                 <div className='navLinks'>
-                <NavLink to="/" >Home</NavLink>
-                <NavLink to="/reviews">Reviews</NavLink>
-                <NavLink to="/dashboard">Dashboard</NavLink>
-                <NavLink to="/blogs">Blogs</NavLink>
+                <NavLink className={({isActive})=> isActive ? "active-a" : "a"} to="/" >Home</NavLink>
+                <NavLink className={({isActive})=> isActive ? "active-a" : "a"}  to="/reviews">Reviews</NavLink>
+                <NavLink className={({isActive})=> isActive ? "active-a" : "a"} to="/dashboard">Dashboard</NavLink>
+                <NavLink className={({isActive})=> isActive ? "active-a" : "a"} to="/blogs">Blogs</NavLink>
+                <NavLink className={({isActive})=> isActive ? "active-a" : "a"} to="/about">About</NavLink>
                 </div>
                  </nav>
 

@@ -5,6 +5,7 @@
 ## Projects Informations
  
  * This is a product review website.
- * I used here React.js, vanila css.
- * I used here react router.
- * I used here Recharts.
+ * In this website has five pages such as home, reviews, dashboard, and about page.
+ * There is two investment vs revenue Area and Bar charts.
+ * This website was created by using React.js, React Router, and vanilla CSS.
+ 
